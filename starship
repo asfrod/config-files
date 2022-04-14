@@ -1,0 +1,40 @@
+add_newline = true
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+
+[sudo]
+style = "bold green"
+symbol = " 💻 "
+disabled = false
+format = "[$symbol]($style) "
+
+[time]
+disabled = false
+format = '[\[$time\]]($style) '
+#time_format = "%T"
+utc_time_offset = "-5"
+use_12hr = true
+
+[username]
+format = '\[[$user]($style)\] '
+style_user = "white bold"
+style_root = "black bold"
+disabled = false
+show_always = true
+
+[directory]
+read_only = "  "
+truncation_length = 8
+truncation_symbol = "…/"
+
+[shell]
+zsh_indicator = "zsh"
+bash_indicator = "bsh"
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = false
+
+
+

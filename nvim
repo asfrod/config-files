@@ -1,0 +1,12 @@
+syntax on
+
+set mouse=a
+set sw=4
+set expandtab
+set smartindent
+set number
+set ignorecase
+set clipboard=unnamedplus
+set encoding=utf-8
+set cursorline
+set termguicolors
