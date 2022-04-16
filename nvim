@@ -3,6 +3,7 @@ syntax on
 set mouse=a
 set sw=4
 set expandtab
+set tabstop=4
 set smartindent
 set number
 set ignorecase
@@ -11,6 +12,7 @@ set encoding=utf-8
 set cursorline
 set termguicolors
 set spelllang=en,es
+
 
 call plug#begin('~/.vim/plugged')
     Plug 'preservim/nerdtree'
