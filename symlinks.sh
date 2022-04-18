@@ -8,6 +8,8 @@ ln -s ~/config-files/nvim ~/.config/nvim/init.vim
 
 ln -s ~/config-files/starship ~/.config/starship.toml
 
+ln -s ~/config-files/alacritty ~/.config/alacritty/alacritty.yml
+
 
 
 
