@@ -39,7 +39,6 @@ disabled = false
 [aws]
 symbol = "  "
 
-
 [conda]
 symbol = " "
 

@@ -12,22 +12,18 @@ set encoding=utf-8
 set cursorline
 set termguicolors
 set spelllang=en,es
+set updatetime=100 "para uso del plugin vim-gitgutter
+set hidden
 
-
-call plug#begin('~/.vim/plugged')
-    Plug 'preservim/nerdtree'
-    Plug 'vim-airline/vim-airline'
-    Plug 'sheerun/vim-polyglot'
-    Plug 'mattn/emmet-vim'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
-    Plug 'ryanoasis/vim-devicons'
+call plug#begin('~/.config/nvim/plugged')
+      Plug 'kyazdani42/nvim-web-devicons'
+      Plug 'kyazdani42/nvim-tree.lua'
+      Plug 'vim-airline/vim-airline'
+      Plug 'sheerun/vim-polyglot'
+      Plug 'mattn/emmet-vim'
+      Plug 'ryanoasis/vim-devicons'
    
 call plug#end()
-
-"-- simpre abre NerdTree y pone el cursor en la venta abierta (Por defecto se abriría en NerdTree)
-autocmd VimEnter * NERDTree | wincmd p
-
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit
 
 
 "-- AUTOCLOSE NATIVE CONFIG
